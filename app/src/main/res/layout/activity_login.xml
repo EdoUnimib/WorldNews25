@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/login_main"
+        app:tint="#000" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/are_you_ready_registered"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:id="@+id/filledTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/label"
+            tools:ignore="DuplicateIds">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="370dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:id="@+id/filledTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/label2"
+            tools:ignore="DuplicateIds">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="370dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/did_you_forget_your_password"
+            android:textColor="?attr/colorOnSurface"
+            style="@style/Widget.Material3.Button.TextButton">
+
+        </Button>
+
+        <Button
+            style="?attr/materialButtonElevatedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_gravity="center"
+            android:paddingStart="100dp"
+            android:paddingEnd="100dp">
+
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OR"
+                    android:layout_margin="10dp">
+
+                </TextView>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_gravity="center_vertical">
+
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="?attr/materialButtonElevatedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_with_google"
+            android:layout_gravity="center"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp">
+
+        </Button>
+
+</LinearLayout>

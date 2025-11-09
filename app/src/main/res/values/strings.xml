@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WorldNews25</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome1">Welcome</string>
+    <string name="are_you_ready_registered">Are you ready registered?</string>
+    <string name="label">Email\n</string>
+    <string name="label2">Password\n</string>
+    <string name="did_you_forget_your_password">Did you forget your password?</string>
+    <string name="login">Login</string>
+    <string name="login_with_google">Login with Google</string>
+</resources>
